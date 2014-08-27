@@ -1,0 +1,15 @@
+body{font-family: helvetica,verdana; font-size: 12px; margin-top: 30px;}
+#container {margin-top: 10px;}
+#container #header {font-size:36px; text-align: center; height: 80px;padding-top: 10px; text-shadow: 10px 10px 10px #120112;
+filter: dropshadow(color=#120112, offx=10, offy=10);}
+#maincontent .row {padding: 5px; border-bottom: 1px solid #ccc;}
+#maincontent .row span {padding: 10px;}
+#maincontent .row .name {font-weight: bold;display: inline-block; width: 600px; }
+#maincontent .row .link a {color:black; text-decoration: none; font-weight: bold; -webkit-border-top-left-radius: 10px; border: 1px solid black; padding: 5px; display: inline-block;
+-webkit-border-bottom-right-radius: 10px;-moz-border-radius-topleft: 10px;-moz-border-radius-bottomright: 10px;border-top-left-radius: 10px;border-bottom-right-radius: 10px; -moz-box-shadow: 2px 2px 2px #888;-webkit-box-shadow: 2px 2px 2px #888;box-shadow: 2px 2px 2px #888;}
+#maincontent .row .link a:hover {-moz-box-shadow: 2px 2px 2px #fff;-webkit-box-shadow: 2px 2px 2px #fff;box-shadow: 2px 2px 2px #fff;color: red; margin-top: 2px;margin-left: 2px;}
+
+
+.hide-review {display: none;}
+.show-review {display: inline;}
+

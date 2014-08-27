@@ -1,0 +1,9 @@
+#top10Widget {width: 100%;}
+#top10Widget p {float: none!Important;}
+#authors {width: 30%; float: left;}
+#authors  div {font-size: 16px; padding: 5px; cursor: pointer; }
+#reviews {width: 70%; float: left;}
+#reviews div {padding: 10px 0;}
+#reviews h2 {font-size: 14px;}
+#reviews .review {clear: both;}
+.review  img {padding: 10px;}
