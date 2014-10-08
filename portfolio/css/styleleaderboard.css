@@ -13,14 +13,14 @@
 .show-review {display: block; clear: both; margin-left: 55px; background-color: #F7F7F7; padding: 10px 15px;}
 
 /* AUTHOR */
-.BVLeaderBoardAuthor .author {display: inline-block; margin: 2px 0; padding: 5px 10px; cursor: pointer; background-image: -webkit-gradient(linear,	left top, left bottom, color-stop(0, #FAFAFA),	color-stop(1, #E8E8E8)); background-image: -o-linear-gradient(bottom, #FAFAFA 0%, #E8E8E8 100%); background-image: -moz-linear-gradient(bottom, #FAFAFA 0%, #E8E8E8 100%); background-image: -webkit-linear-gradient(bottom, #FAFAFA 0%, #E8E8E8 100%); background-image: -ms-linear-gradient(bottom, #FAFAFA 0%, #E8E8E8 100%); background-image: linear-gradient(to bottom, #FAFAFA 0%, #E8E8E8 100%); border: 1px solid #cccccc; border-radius: 3px;}
+.BVLeaderBoardAuthor .author {display: inline-block; margin: 2px 0; padding: 7px 10px 4px; cursor: pointer; background: #F2F2F2; border-radius: 3px;}
 .BVLeaderBoardAuthor .author:hover {background: #F7F7F7;}
 .BVLeaderBoardAuthor .author p {margin-bottom: 5px;}
 .BVLeaderBoardAuthor {display: inline-block; width: 300px; float: left; padding-left: 10px;}
 .BVLeaderBoardAuthor .author strong {display: inline-block; width: 200px; word-wrap: break-word;}
 
 /* REVIEWS */
-.BVLeaderBoardReviews {display: inline-block; width: 400px; float: left; cursor: pointer; padding: 5px 10px;}
+.BVLeaderBoardReviews {display: inline-block; width: 444px; float: left; cursor: pointer; padding: 5px 10px;}
 .BVLeaderBoardReviews .review > img {width: 50px !important; margin-bottom: 0;}
 .BVLeaderBoardReviews .productTitle {display: inline-block; font-size: 14px; margin: 8px 0 0 5px;}
 .BVLeaderBoardReviews .productTitle:hover {text-decoration: underline;}
