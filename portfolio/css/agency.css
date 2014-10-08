@@ -3,10 +3,10 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  color: #003D50;
 }
 .text-primary {
-  color: #777777;
+  color: #003D50;
 }
 p {
   font-size: 14px;
@@ -290,6 +290,7 @@ section h3.section-subheading {
   font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
+  color: #ffffff;
 }
 @media (min-width: 768px) {
   section {

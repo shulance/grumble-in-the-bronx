@@ -1,0 +1,71 @@
+#category_list ul {list-style: none; width: 100%; margin: 30px 0; overflow: hidden;}
+#category_list ul li {width: 17%; float: left; padding-right: 74px; text-align: center; margin-bottom: 30px; height: 300px;}
+/*#category_list ul li:nth-child(4n) {padding-right: 0;}
+#category_list ul li:nth-child(5n) {clear: left;}*/
+#category_list ul li .productname {padding: 10px 0 5px; color: #003D4E;}
+#category_list ul li .productprice {font-size: 20px;}
+#category_list ul li p, #category_list ul li img {margin: 0}
+#category_list ul li a {display: block; -moz-box-shadow: 1px 1px 3px #888; -webkit-box-shadow: 1px 1px 3px #888; box-shadow: 1px 1px 3px #888; border: 5px solid #E7E7E7; margin-top: 2px;}
+
+#logo {clear: both;}
+
+#header {background: url(../img/cart_header.png) right 0 no-repeat;}
+#header #nav {margin-bottom: 20px; overflow: hidden;}
+#header #nav ul {float: right; padding-right: 200px;}
+#header #nav li {margin-bottom: 0; margin-top: 2px;}
+#header #nav a {color: #808E92;}
+.searchlogin {padding-top: 10px;}
+.searchlogin img {float: right; margin-right: 215px;}
+
+#body {background-color: #fff; -moz-box-shadow: 2px 1px 5px #888; -webkit-box-shadow: 2px 1px 5px #888; box-shadow: 2px 1px 5px #888; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+#body #nav {background-color: #003D50; padding: 10px 30px 5px; text-transform: uppercase;}
+#body #nav li {line-height: 1em; padding-right: 1em; background: url(../img//nav_separator.gif) right 0 no-repeat;}
+
+#content {padding: 30px; overflow: hidden;}
+#content .breadcrumbs a {color: #999;}
+#content .breadcrumbs a:hover {color: #808E92;}
+#content .shop-buttons a {display: block; background: url(../img//main_button_bg.gif) repeat-x; height: 44px; line-height: 44px; color: #fff; text-transform: uppercase; padding: 0 30px; text-decoration: none; float: left;}
+#content .like {padding: 20px 30px; background-color: #f2f2f2; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; text-align: center;}
+	#content .like ul {margin: 0;}
+	#content .like li {list-style:none; padding-bottom: 25px;}
+		#content .like li .thumb {display: block; border: 5px solid #fff; border-width: 5px 10px; width: 110px; margin: 0 auto 5px;}
+		#content .like li .stars {display: block; width: 50px; margin: 0 auto;}
+		#content .like li .price {color: #003D4E; font-weight: 700;}
+
+#BVRRContainer {clear: both;}
+
+#product .productinfo h1 {border-bottom: 1px dashed #bbb; padding-bottom: 16px;}
+#product .productimage img {-moz-box-shadow: 1px 1px 3px #888; -webkit-box-shadow: 1px 1px 3px #888; box-shadow: 1px 1px 3px #888; border: 5px solid #E7E7E7; margin-left: 1px;}
+#product .productdescription {font-size: 14px; padding-bottom: 20px;}
+#product .productprice {color: #003D4E; font-weight: 700; font-size: 24px; margin-bottom: 20px;}
+#product .productdetails {clear: both; font-size: 11px; border: 1px dashed #bbb; border-width: 1px 0; padding: 20px 0 0; margin-bottom: 20px;}
+	#product .productdetails h2 {font-size: 14px; margin-bottom: 0;}
+	#product .productdetails li {margin: 0;}
+
+
+#footer h3 {color: #fff; text-transform: uppercase;}
+#footer ul li {margin-bottom: 3px;}
+#footer ul a {color: #808E92; font-weight: normal;}
+#footer .social img {margin: 10px 10px 0 0;}
+#footer .map {margin-top: 20px;}
+
+.delivery-img {width: 100%; text-align: center; display: block;}
+.delivery-img img {width: 200px;}
+
+.pres-container {background-color: #fff; -moz-box-shadow: 2px 1px 5px #888; -webkit-box-shadow: 2px 1px 5px #888; box-shadow: 2px 1px 5px #888; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; margin: 20px auto;}
+.pres-content {padding: 30px; overflow: hidden;}
+.pres-content h1 {margin-bottom: 30px;}
+.pres-content .bottom-buttons {clear: both;}
+.pres-content .back-buttons {float: left;}
+.pres-content .back-buttons a {display: block; height: 48px; margin-top: 15px; line-height: 40px; text-transform: uppercase; padding-left: 35px; color: #fff; text-decoration: none; background: url(../img/back_button_left.png) no-repeat; margin-left: -30px;}
+.pres-content .back-buttons a span {display: block; background:url(../img/back_button_right.png) right 0 no-repeat; height: 48px; padding-right: 30px;}
+.pres-content .next-buttons {float: right;}
+.pres-content .next-buttons a {display: block; height: 48px; margin-top: 15px; line-height: 40px; text-transform: uppercase; padding-right: 35px; color: #fff; text-decoration: none; background: url(../img/next_button_right.png) right 0 no-repeat; float: right; clear: right; margin-right: -30px;}
+.pres-content .next-buttons a span {display: block; background:url(../img/next_button_left.png) no-repeat; height: 48px; padding-left: 30px;}
+
+.image-highlight {-moz-box-shadow: 1px 1px 3px #888; -webkit-box-shadow: 1px 1px 3px #888; box-shadow: 1px 1px 3px #888; border: 5px solid #fff; margin-left: 1px;}
+
+.moderation-img {clear: both; float: left; width: 30%;}
+.moderation-txt {float: right; width: 70%; margin-bottom: 20px;}
+.modtop1, .modtop2 {margin-top: 45px;}
+.modtop3 {margin-top: 75px;}
