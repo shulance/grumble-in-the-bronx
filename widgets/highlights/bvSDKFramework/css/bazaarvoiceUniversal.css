@@ -50,7 +50,7 @@
 
 		/* Overall Rating */
 		.BVUGCHeader .BVOverallRatingContainer {}
-			.BVUGCHeader .BVRatingStarsContainer {width: 40%; min-width: 145px; max-width: 145px; display: inline-block; vertical-align: middle;}
+			.BVUGCHeader .BVRatingStarsContainer {width: 40%; min-width: 98px; max-width: 98px; display: inline-block; vertical-align: middle;}
 
 		/* Pull Quote */
 		.BVPullquotePrefix {display: inline-block; vertical-align: top; float: left;}
