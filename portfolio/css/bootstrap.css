@@ -3879,7 +3879,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
+  height: 67px;
   padding: 9px 15px;
   font-size: 18px;
   line-height: 20px;
@@ -3929,7 +3929,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 20px;
+  line-height: 37px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
