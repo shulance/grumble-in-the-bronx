@@ -4,8 +4,8 @@
 
 /* CONTAINER STYLES */
 
-	#BVRRPullquoteHighlightContainer {clear: both; max-width: 1008px; margin: 0 auto;}
-	.BVPullquoteWidgetContainer {border-bottom: 1px solid #DBDBDB; padding: 0 0 30px 0;}
+	#BVRRPullquoteHighlightContainer {clear: both; max-width: 777px; margin: 0 auto;}
+	.BVPullquoteWidgetContainer {border-bottom: 1px dashed #bbb; padding: 0 0 30px 0; margin-bottom: 20px;}
 		.BVPullquoteWidgetContainer .BVUGCBodyContainer {background: url(../images/backgroundPullquoteDivider.gif) repeat-y center center;}
 	.BVRRSingleReview .BVPullquoteWidgetContainer .BVUGCBodyContainer {background: none; text-align: center;}
 
@@ -18,11 +18,11 @@
 /* GENERAL */
 
 	/* Font Styles */
-	.BVUGCContainer {font-family: 'HelveticaNeueLTStd45Light', 'Helvetica Neue', Helvetica, Arial, Sans-Serif; font-size: 15px; color: #333; line-height: 1.5em;}
-	.BVPullquotePrefix, .BVPullquoteText, .BVPullquoteSuffix {color: #333; font-size: 22px; font-weight: normal; line-height: 26px;}
-	.BVUserNicknameText {font-size: 22px; font-weight: normal;}
+	.BVUGCContainer {font-family: 'Ubuntu',sans-serif; font-size: 14px; color: #666; line-height: 1.5em;}
+	.BVPullquotePrefix, .BVPullquoteText, .BVPullquoteSuffix {color: #666; font-size: 16px; font-weight: normal; line-height: 26px;}
+	.BVUserNicknameText {font-size: 16px; font-weight: normal;}
 	.BVUserLocationContainer {font-size: 13px;}
-
+	
 	/* Titles, Labels, Values */
 	.BVLabel {}
 	.BVValue {font-weight: bold;}
@@ -32,15 +32,18 @@
 /* RATINGS */
 
 	/* Overall Star Rating */
-	.BVOverallRatingContainer {margin-bottom: 20px;}
+	.BVOverallRatingContainer {margin-bottom: 0;}
 	.BVOverallRatingContainer .BVRatingStarsContainer {min-width: 100px; height: auto; display: inline-block; vertical-align: middle;}
+	.BVRatingStarsUnfilled img, .BVRatingStarsUnfilled object, .BVRatingStarsUnfilled embed {margin-bottom: 5px;}
 
 
 /* GENERAL UGC STYLES */
 
 	/* UGC Display */
 	.BVUGCBodyContainer {}
-		.BVUGCContainer {width: 42%; margin: 0 36px; display: inline-block; vertical-align: top;}
+		.BVUGCContainer {width: 45%; margin: 0 38px; display: inline-block; vertical-align: top;}
+		.BVUGCBodyContainer > :last-child {margin-right: 0;}
+		.BVUGCBodyContainer > :last-child {margin-left: 0;}
 
 	/* Header - Rating, Pullquote */
 	.BVUGCHeader {margin: 0;}
