@@ -1,0 +1,67 @@
+/* Type & image presets */
+
+img, object, embed {
+margin-bottom: 20px;
+}
+
+body {
+font-family: 'Ubuntu', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;		/* Changing this will break the baseline grid. */
+-webkit-text-size-adjust: none;		/* Stops the iPhone scalling type up */
+color: #666;
+}
+
+a {
+text-decoration: underline;
+color: #003D4E;
+}
+
+a:hover {
+color: #001C24;
+text-decoration: none;
+}
+
+a img {
+display: block;		/* Stops image links getting text link styles */
+}
+
+img {
+margin-bottom: 20px;
+}
+
+p, ul, ol, blockquote {
+margin-bottom: 24px;	/* Changing this will break the baseline grid. */
+}
+
+li {
+margin-bottom: 6px;
+}
+
+blockquote {
+border-left: 1px solid #c1c1c1;
+color: #747474;
+padding-left: 15px;
+margin-left: -15px;
+}
+
+h1 {
+font-size: 36px;
+line-height: 36px;		/* Changing this will break the baseline grid. */
+margin-bottom: 16px;	/* Changing this will break the baseline grid. */
+font-weight: normal;
+color: #003D4E;
+}
+
+h2 {
+font-size: 20px;
+margin-bottom: 16px;	/* Changing this will break the baseline grid. */
+font-weight: lighter;
+}
+
+h3 {
+font-size: 16px;
+margin-bottom: 16px;	/* Changing this will break the baseline grid. */
+font-weight: lighter;
+}
