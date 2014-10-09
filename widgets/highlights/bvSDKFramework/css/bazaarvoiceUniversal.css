@@ -43,7 +43,8 @@
 	.BVUGCBodyContainer {}
 		.BVUGCContainer {width: 45%; margin: 0 38px; display: inline-block; vertical-align: top;}
 		.BVUGCBodyContainer > :last-child {margin-right: 0;}
-		.BVUGCBodyContainer > :last-child {margin-left: 0;}
+		.BVUGCBodyContainer > :first-child {margin-left: 0;}
+		
 
 	/* Header - Rating, Pullquote */
 	.BVUGCHeader {margin: 0;}
