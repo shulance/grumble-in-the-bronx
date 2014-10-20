@@ -112,13 +112,13 @@
 <div class="ugc ninecol">
 
 	<!-- kiosk -->
-	<div id="info">
-		<div id="searchbox"><strong>Search:</strong>
-			<input type="text" size="30" value="" id="inputString" onkeyup="lookup(this.value);" />
+	<div id="info" class="BVRRKioskInfo">
+		<div id="searchbox" class="BVRRKioskSearchBox"><strong>Search:</strong>
+			<input type="text" class="BVRRKioskInput" size="30" value="" id="inputString" onkeyup="lookup(this.value);" />
 		</div>
-		<div id="container">
-			<div id="products"></div>
-			<div id="reviews"></div>	
+		<div id="container" class="BVRRKioskContainer">
+			<div id="products" class="BVRRKioskContainerProducts"></div>
+			<div id="reviews" class="BVRRKioskContainerReviews"></div>	
 		</div>		
 	</div>
 	<!-- end kiosk -->
