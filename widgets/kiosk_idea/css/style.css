@@ -2,7 +2,7 @@ body{font-family: helvetica,verdana; font-size: 12px; margin-top: 30px;}
 #container {margin-top: 10px; width: 630px; position: absolute;}
 #products {width: 30%;  float: left;}
 .product {background: url(../img/arrowsearch.png) 168px center no-repeat #00A98B; color: #ffffff; padding: 10px 30px 10px 10px; margin-bottom: 10px; cursor: pointer;}
-#reviews {width: 63%; float: left; background: #ffffff; z-index: 9999999; margin-left: 0px; padding: 0 15px; -webkit-box-shadow: -33px 0px 35px -22px rgba(0,0,0,0.54); -moz-box-shadow: -33px 0px 35px -22px rgba(0,0,0,0.54); box-shadow: -33px 0px 35px -22px rgba(0,0,0,0.54); border: 1px solid 1px solid #00A98B; border: 1px solid #00A98B; border-left: 0;}
+#reviews {width: 63%; float: left; background: #ffffff; z-index: 9999999; margin-left: 0px; padding: 0 15px; -webkit-box-shadow: -33px 0px 35px -22px rgba(0,0,0,0.54); -moz-box-shadow: -33px 0px 35px -22px rgba(0,0,0,0.54); box-shadow: -33px 0px 35px -22px rgba(0,0,0,0.54); border: 1px solid #00A98B; border-left: 0;}
 .BVRRKioskInfo {padding: 10px;}
 .BVRRKioskSearchBox input {width: 300px; padding: 5px;}
 .BVRRKioskSearchSpan {font-size: 16px;}
