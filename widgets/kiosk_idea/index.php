@@ -44,7 +44,19 @@
 		<div id="logo" class="fivecol">
 			<a class="logo" href="/"><img src="img/logodummy.png" width="249" height="51" border="0"></a>
 		</div>
-        <div  class="sevencol last searchlogin"><img src="img/search_login.png" width="367" height="27" border="0"></div>
+        <div  class="sevencol last searchlogin">
+        <!-- kiosk -->
+			<div id="info" class="BVRRKioskInfo">
+				<div id="searchbox" class="BVRRKioskSearchBox"><span class="BVRRKioskSearchSpan"><strong>Search:</strong></span>
+					<input type="text" class="BVRRKioskInput" size="30" value="" id="inputString" onkeyup="lookup(this.value);" />
+				</div>
+				<div id="container" class="BVRRKioskContainer">
+					<div id="products" class="BVRRKioskContainerProducts"></div>
+					<div id="reviews" class="BVRRKioskContainerReviews"></div>	
+				</div>		
+			</div>
+			<!-- end kiosk -->
+		</div>
 	</div>
     <div id="body" class="row">
     	<div id="nav" class="row">
@@ -110,18 +122,6 @@
 </div>
 
 <div class="ugc ninecol">
-
-	<!-- kiosk -->
-	<div id="info" class="BVRRKioskInfo">
-		<div id="searchbox" class="BVRRKioskSearchBox"><span class="BVRRKioskSearchSpan"><strong>Search:</strong></span>
-			<input type="text" class="BVRRKioskInput" size="30" value="" id="inputString" onkeyup="lookup(this.value);" />
-		</div>
-		<div id="container" class="BVRRKioskContainer">
-			<div id="products" class="BVRRKioskContainerProducts"></div>
-			<div id="reviews" class="BVRRKioskContainerReviews"></div>	
-		</div>		
-	</div>
-	<!-- end kiosk -->
 	
     <div id="BVRRContainer"><img src="img/rr.jpg"></div>
     <div id="BVQAContainer"><img src="img/qa.jpg"></div>
