@@ -113,7 +113,7 @@
 
 	<!-- kiosk -->
 	<div id="info" class="BVRRKioskInfo">
-		<div id="searchbox" class="BVRRKioskSearchBox"><strong>Search:</strong>
+		<div id="searchbox" class="BVRRKioskSearchBox"><span class="BVRRKioskSearchSpan"><strong>Search:</strong></span>
 			<input type="text" class="BVRRKioskInput" size="30" value="" id="inputString" onkeyup="lookup(this.value);" />
 		</div>
 		<div id="container" class="BVRRKioskContainer">
